@@ -1,19 +1,7 @@
 @import "tailwindcss";
 @font-face {
-  font-family: Cursive;
-  src: url(src/assets/Citadel.otf);
-}
-@font-face {
-  font-family: Helvetica;
-  src: url(src/assets/Helvetica.ttf);
-}
-@font-face {
-  font-family: Tempting;
-  src: url(src/assets/Tempting.ttf);
-}
-@font-face {
   font-family: Urbanist;
-  src: url(src/assets/Urbanist.ttf);
+  src: url(public/fonts/Urbanist.ttf) format("truetype");;
 }
 
 html {
@@ -47,5 +35,3 @@ body {
 .animate-marquee {
   animation: marquee 35s linear infinite;
 }
-
-
